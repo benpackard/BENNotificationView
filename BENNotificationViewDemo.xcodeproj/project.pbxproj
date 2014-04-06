@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C557712218F0F6EF00166D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C557712118F0F6EF00166D64 /* Foundation.framework */; };
+		C557712418F0F6EF00166D64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C557712318F0F6EF00166D64 /* CoreGraphics.framework */; };
+		C557712618F0F6EF00166D64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C557712518F0F6EF00166D64 /* UIKit.framework */; };
+		C557712C18F0F6EF00166D64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C557712A18F0F6EF00166D64 /* InfoPlist.strings */; };
+		C557712E18F0F6EF00166D64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C557712D18F0F6EF00166D64 /* main.m */; };
+		C557713218F0F6EF00166D64 /* BENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C557713118F0F6EF00166D64 /* BENAppDelegate.m */; };
+		C557713418F0F6EF00166D64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C557713318F0F6EF00166D64 /* Images.xcassets */; };
+		C557713B18F0F6EF00166D64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C557713A18F0F6EF00166D64 /* XCTest.framework */; };
+		C557713C18F0F6EF00166D64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C557712118F0F6EF00166D64 /* Foundation.framework */; };
+		C557713D18F0F6EF00166D64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C557712518F0F6EF00166D64 /* UIKit.framework */; };
+		C557714518F0F6EF00166D64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C557714318F0F6EF00166D64 /* InfoPlist.strings */; };
+		C557714718F0F6EF00166D64 /* BENNotificationViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C557714618F0F6EF00166D64 /* BENNotificationViewDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C557713E18F0F6EF00166D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C557711618F0F6EF00166D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C557711D18F0F6EF00166D64;
+			remoteInfo = BENNotificationViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C557711E18F0F6EF00166D64 /* BENNotificationViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BENNotificationViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C557712118F0F6EF00166D64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C557712318F0F6EF00166D64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C557712518F0F6EF00166D64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C557712918F0F6EF00166D64 /* BENNotificationViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BENNotificationViewDemo-Info.plist"; sourceTree = "<group>"; };
+		C557712B18F0F6EF00166D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C557712D18F0F6EF00166D64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C557712F18F0F6EF00166D64 /* BENNotificationViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BENNotificationViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C557713018F0F6EF00166D64 /* BENAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BENAppDelegate.h; sourceTree = "<group>"; };
+		C557713118F0F6EF00166D64 /* BENAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BENAppDelegate.m; sourceTree = "<group>"; };
+		C557713318F0F6EF00166D64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C557713918F0F6EF00166D64 /* BENNotificationViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BENNotificationViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C557713A18F0F6EF00166D64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C557714218F0F6EF00166D64 /* BENNotificationViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BENNotificationViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		C557714418F0F6EF00166D64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C557714618F0F6EF00166D64 /* BENNotificationViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BENNotificationViewDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C557711B18F0F6EF00166D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C557712418F0F6EF00166D64 /* CoreGraphics.framework in Frameworks */,
+				C557712618F0F6EF00166D64 /* UIKit.framework in Frameworks */,
+				C557712218F0F6EF00166D64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C557713618F0F6EF00166D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C557713B18F0F6EF00166D64 /* XCTest.framework in Frameworks */,
+				C557713D18F0F6EF00166D64 /* UIKit.framework in Frameworks */,
+				C557713C18F0F6EF00166D64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C557711518F0F6EF00166D64 = {
+			isa = PBXGroup;
+			children = (
+				C557712718F0F6EF00166D64 /* BENNotificationViewDemo */,
+				C557714018F0F6EF00166D64 /* BENNotificationViewDemoTests */,
+				C557712018F0F6EF00166D64 /* Frameworks */,
+				C557711F18F0F6EF00166D64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C557711F18F0F6EF00166D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C557711E18F0F6EF00166D64 /* BENNotificationViewDemo.app */,
+				C557713918F0F6EF00166D64 /* BENNotificationViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C557712018F0F6EF00166D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C557712118F0F6EF00166D64 /* Foundation.framework */,
+				C557712318F0F6EF00166D64 /* CoreGraphics.framework */,
+				C557712518F0F6EF00166D64 /* UIKit.framework */,
+				C557713A18F0F6EF00166D64 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C557712718F0F6EF00166D64 /* BENNotificationViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C557713018F0F6EF00166D64 /* BENAppDelegate.h */,
+				C557713118F0F6EF00166D64 /* BENAppDelegate.m */,
+				C557713318F0F6EF00166D64 /* Images.xcassets */,
+				C557712818F0F6EF00166D64 /* Supporting Files */,
+			);
+			path = BENNotificationViewDemo;
+			sourceTree = "<group>";
+		};
+		C557712818F0F6EF00166D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C557712918F0F6EF00166D64 /* BENNotificationViewDemo-Info.plist */,
+				C557712A18F0F6EF00166D64 /* InfoPlist.strings */,
+				C557712D18F0F6EF00166D64 /* main.m */,
+				C557712F18F0F6EF00166D64 /* BENNotificationViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C557714018F0F6EF00166D64 /* BENNotificationViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C557714618F0F6EF00166D64 /* BENNotificationViewDemoTests.m */,
+				C557714118F0F6EF00166D64 /* Supporting Files */,
+			);
+			path = BENNotificationViewDemoTests;
+			sourceTree = "<group>";
+		};
+		C557714118F0F6EF00166D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C557714218F0F6EF00166D64 /* BENNotificationViewDemoTests-Info.plist */,
+				C557714318F0F6EF00166D64 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C557711D18F0F6EF00166D64 /* BENNotificationViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C557714A18F0F6EF00166D64 /* Build configuration list for PBXNativeTarget "BENNotificationViewDemo" */;
+			buildPhases = (
+				C557711A18F0F6EF00166D64 /* Sources */,
+				C557711B18F0F6EF00166D64 /* Frameworks */,
+				C557711C18F0F6EF00166D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BENNotificationViewDemo;
+			productName = BENNotificationViewDemo;
+			productReference = C557711E18F0F6EF00166D64 /* BENNotificationViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C557713818F0F6EF00166D64 /* BENNotificationViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C557714D18F0F6EF00166D64 /* Build configuration list for PBXNativeTarget "BENNotificationViewDemoTests" */;
+			buildPhases = (
+				C557713518F0F6EF00166D64 /* Sources */,
+				C557713618F0F6EF00166D64 /* Frameworks */,
+				C557713718F0F6EF00166D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C557713F18F0F6EF00166D64 /* PBXTargetDependency */,
+			);
+			name = BENNotificationViewDemoTests;
+			productName = BENNotificationViewDemoTests;
+			productReference = C557713918F0F6EF00166D64 /* BENNotificationViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C557711618F0F6EF00166D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BEN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ben Packard";
+				TargetAttributes = {
+					C557713818F0F6EF00166D64 = {
+						TestTargetID = C557711D18F0F6EF00166D64;
+					};
+				};
+			};
+			buildConfigurationList = C557711918F0F6EF00166D64 /* Build configuration list for PBXProject "BENNotificationViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C557711518F0F6EF00166D64;
+			productRefGroup = C557711F18F0F6EF00166D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C557711D18F0F6EF00166D64 /* BENNotificationViewDemo */,
+				C557713818F0F6EF00166D64 /* BENNotificationViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C557711C18F0F6EF00166D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C557712C18F0F6EF00166D64 /* InfoPlist.strings in Resources */,
+				C557713418F0F6EF00166D64 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C557713718F0F6EF00166D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C557714518F0F6EF00166D64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C557711A18F0F6EF00166D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C557713218F0F6EF00166D64 /* BENAppDelegate.m in Sources */,
+				C557712E18F0F6EF00166D64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C557713518F0F6EF00166D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C557714718F0F6EF00166D64 /* BENNotificationViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C557713F18F0F6EF00166D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C557711D18F0F6EF00166D64 /* BENNotificationViewDemo */;
+			targetProxy = C557713E18F0F6EF00166D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C557712A18F0F6EF00166D64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C557712B18F0F6EF00166D64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C557714318F0F6EF00166D64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C557714418F0F6EF00166D64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C557714818F0F6EF00166D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C557714918F0F6EF00166D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C557714B18F0F6EF00166D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BENNotificationViewDemo/BENNotificationViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "BENNotificationViewDemo/BENNotificationViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C557714C18F0F6EF00166D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BENNotificationViewDemo/BENNotificationViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "BENNotificationViewDemo/BENNotificationViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C557714E18F0F6EF00166D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BENNotificationViewDemo.app/BENNotificationViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BENNotificationViewDemo/BENNotificationViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BENNotificationViewDemoTests/BENNotificationViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C557714F18F0F6EF00166D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BENNotificationViewDemo.app/BENNotificationViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BENNotificationViewDemo/BENNotificationViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "BENNotificationViewDemoTests/BENNotificationViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C557711918F0F6EF00166D64 /* Build configuration list for PBXProject "BENNotificationViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C557714818F0F6EF00166D64 /* Debug */,
+				C557714918F0F6EF00166D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C557714A18F0F6EF00166D64 /* Build configuration list for PBXNativeTarget "BENNotificationViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C557714B18F0F6EF00166D64 /* Debug */,
+				C557714C18F0F6EF00166D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C557714D18F0F6EF00166D64 /* Build configuration list for PBXNativeTarget "BENNotificationViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C557714E18F0F6EF00166D64 /* Debug */,
+				C557714F18F0F6EF00166D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C557711618F0F6EF00166D64 /* Project object */;
+}
