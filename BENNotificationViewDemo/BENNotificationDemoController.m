@@ -21,9 +21,9 @@
 {
     [super viewDidLoad];
 	
-//	BENNotificationView *notification = [[BENNotificationView alloc] initWithAppName:@"No-Hitter Alert" notificationText:@"Tim Lincenum has pitched 7 hitless innings. Lines should be truncated after two." appIconImage:[UIImage imageNamed:@"NoHitterIcon"]];
+	BENNotificationView *notification = [[BENNotificationView alloc] initWithAppName:@"No-Hitter Alert" notificationText:@"Tim Lincenum has pitched 7 hitless innings. Open for TV, Radio, etc." timeStampText:@"now" appIconImage:[UIImage imageNamed:@"NoHitterIcon"]];
 //	BENNotificationView *notification = [[BENNotificationView alloc] initWithAppName:@"Ben Packard" notificationText:@"This is a message with multiple lines of text. Truncation will happen on the second line." timeStampText:@"now" appIconImage:[UIImage imageNamed:@"NoHitterIcon"]];
-	BENNotificationView *notification = [[BENNotificationView alloc] initWithAppName:@"Ben Pack" notificationText:@"This is a message with multiple lines of text. Truncation wi" timeStampText:nil appIconImage:[UIImage imageNamed:@"NoHitterIcon"]];
+//	BENNotificationView *notification = [[BENNotificationView alloc] initWithAppName:@"Ben Pack" notificationText:@"This is a message with multiple lines of text. Truncation wi" timeStampText:nil appIconImage:[UIImage imageNamed:@"NoHitterIcon"]];
 
 	notification.translatesAutoresizingMaskIntoConstraints = NO;
 	[self.view addSubview:notification];
